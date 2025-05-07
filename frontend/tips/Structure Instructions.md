@@ -8,6 +8,32 @@ Converting an existing travel agency website from HTML/CSS/JS to a React applica
 ### Layout Components
 ```
 src/
+  ├── routes/
+  │   └── Routes.jsx
+  ├── components/
+  │   └── layout/
+  │       ├── Layout.jsx
+  │       ├── Navbar/
+  │       │   └── Navbar.jsx
+  │       └── Footer/
+  │           └── Footer.jsx
+  ├── pages/
+  │   ├── Home/
+  │   │   └── Home.jsx
+  │   ├── Destinations/
+  │   │   └── Destinations.jsx
+  │   ├── Packages/
+  │   │   └── Packages.jsx
+  │   ├── Auth/
+  │   │   ├── Login.jsx
+  │   │   └── Signup.jsx
+  │   └── ItemDetails/
+  │       └── ItemDetails.jsx
+  └── App.jsx
+  ```
+
+```
+src/
   components/
     layout/
       Navbar/
